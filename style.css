@@ -1,0 +1,48 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.color {
+    color: tomato;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.HIRE-ME {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(254, 155, 138), orangered);
+    padding: 10px 50px;
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.half-width img {
+    width: 75%;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
