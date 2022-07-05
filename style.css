@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: 75px;
+    font-size: 70px;
 }
 
 h3 {
@@ -17,11 +17,16 @@ h3 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 7%;
+}
+
+p {
+    text-justify: auto;
 }
 
 .HIRE-ME {
@@ -31,7 +36,6 @@ section {
     color: aliceblue;
     font-weight: 700;
     border-radius: 5px;
-    margin-top: 10px;
 }
 
 p {
@@ -39,10 +43,28 @@ p {
 }
 
 .half-width img {
-    width: 75%;
+    width: 85%;
+
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.My-account {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(254, 155, 138), orangered);
+    padding: 10px 50px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
